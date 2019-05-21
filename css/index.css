@@ -1,0 +1,831 @@
+
+@font-face {
+  font-family: 'axisextra_bold';
+  src: url('/css/fonts/axis_extrabold-webfont.woff2') format('woff2'),
+       url('/css/fonts/axis_extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html,body {
+  padding:0; 
+  margin:0;
+
+}
+
+
+.body {
+    font-family: 'axisextra_bold', 'Arial', 'sans-serif';
+    background-color: #fff;
+    font-size: 10px;
+}
+
+h1 {
+  font-family: 'axisextra_bold', 'Arial', 'sans-serif';
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+  padding-left: 2rem;
+  color: #2a2d34;
+
+}
+
+h2 {
+  font-family: 'axisextra_bold';
+  color: #2a2d34;
+  letter-spacing: .1rem;
+  font-size: 2rem;
+  line-height: 1em;
+}
+
+p {
+  font-family: 'Avenir';
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 75px;
+    background-color: #2a2d34;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amplogo {
+  margin-left: 200px;
+
+}
+
+.navsocial {
+  margin-right: 200px;
+}
+
+.navsocial img {
+  padding-left: 10px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.header-content h1 {
+  text-align: center;
+  margin-bottom: 80px;
+  line-height: 2.4;
+}
+
+.header-img {
+  width: 280px;
+  margin-top: 100px;
+  margin-bottom: -270px;
+  z-index: 10;
+}
+
+.header-content button {
+  font-family: 'axisextra_bold';
+  background-color: #2a2d34;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .8rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-bar {
+  height: 130px;
+  width: 5px;
+  background-color: #2a2d34;
+  margin-top: 5vw;
+  margin-bottom: -11vw;
+  
+}
+
+.info-wrapper {
+  background-color: #2a2d34;
+  height: auto;
+  padding: 5vw;
+}
+
+.info-image {
+  height: 450px;
+}
+
+.info-section1-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-txt {
+  font-family: 'axisextra_bold';
+  color: white;
+  width: 30vw;
+  padding: 4vw;
+}
+
+.info-txt h3 {
+  font-family: 'Avenir';
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.info-txt h2 {
+  margin-top: -1vw;
+  color: white;
+}
+
+.info-txt p {
+  font-family: 'Avenir';
+  font-size: .9rem;
+}
+
+.info-period {
+  color: #ff682b;
+}
+
+.info-section2-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  margin-top: -4vw;
+}
+
+.pricing-wrapper {
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.pricing-deco-1 {
+  width: 70px;
+  margin-top: 10px;
+  margin-bottom: -390px;
+  align-self: flex-start;
+}
+
+.deco-contain {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.pricing-deco-2 {
+  width: 200px;
+  margin-top: -60px;
+  margin-bottom: 10px;
+  align-self: flex-end;
+  z-index: 0;
+}
+
+.pricing-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-tier-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pricing-tier {
+  background-color: white;
+  display: flex;
+  margin-top: 3vw;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  padding-bottom: 1vw;
+  margin-left: 3vw;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+
+.box-top {
+  background-color: #ff682b;
+  height: 5px;
+  width: 100%;
+}
+
+.pricing-tier h3 {
+  font-family: 'axisextra_bold';
+  font-size: 1rem;
+  color: #2a2d34;
+  margin-bottom: -.5vw;
+}
+
+.tier-header {
+  margin-top: 2vw;
+}
+
+.pricing-tier p {
+  padding: 0vw 2vw;
+  text-align: left;
+  width: 20vw;
+}
+
+.tier-rank {
+  color: #e0e0e1;
+}
+
+.tier-price {
+  color: #ff682b;
+
+}
+
+.contact-us {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+}
+
+.contact-deco-1 {
+  width: 610px;
+  margin-top: -210px;
+  margin-bottom: 150px;
+  margin-left: -10px;
+  align-self: flex-start;
+  z-index: 0;
+}
+
+.contact-deco-2 {
+  width: 200px;
+  margin-top: 100px;
+  margin-bottom: -480px;
+  align-self: flex-end;
+  margin-right: 17vw;
+  z-index: 1;
+}
+
+.contact-box {
+  background-color: #ffffff;
+  width: 60vw;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 11vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10vw;
+  padding-bottom: 5vw;
+  z-index: 1;
+}
+
+.contact-box p {
+  width: 50vw;
+  text-align: center;
+  
+}
+
+form {
+  margin-top: 1vw;
+  
+}
+
+input[type=text] {
+  margin-bottom: 1vw;
+  
+}
+
+input[name=firstname] {
+  width: 100%;
+  height: 2vw;
+  background-color: #e8e9eb;
+  border: none;
+  border-radius: 4px;
+  padding-left: 1vw;
+}
+
+input[name=youremail] {
+  width: 100%;
+  height: 2vw;
+  background-color: #e8e9eb;
+  border: none;
+  border-radius: 4px;
+  padding-left: 1vw;
+}
+
+input[name=message] {
+  width: 100%;
+  height: 7vw;
+  background-color: #e8e9eb;
+  border: none;
+  border-radius: 4px;
+  padding-bottom: 5vw;
+  padding-left: 1vw;
+  
+}
+
+input[type=submit]{
+  margin-top: 2vw;
+  font-family: 'axisextra_bold';
+  background-color: #2a2d34;
+  font-size: .6rem;
+  color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 4px;
+  padding: .5vw 2vw;
+}
+
+footer {
+  background-color: #e8e9eb;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+.footer-left {
+  margin-left: 200px;
+  font-size: .5rem;
+}
+
+.footer-right {
+  margin-right: 200px;
+}
+
+.footer-right img {
+  padding-left: 10px;
+}
+
+
+/* small screens and ipad */
+@media only screen and (max-width: 800px) {
+  h1{
+    font-size: 3rem;
+    letter-spacing: 1.8rem;
+    padding-left: 1.8rem;
+  }
+  nav {
+    height: auto;      
+    padding: 4vw 0vw;
+  }
+  .amplogo {
+    margin-left: 10vw;
+  
+  }
+  .navsocial {
+    margin-right: 10vw;
+  }
+  .navsocial img {
+    padding: 0px 10px;
+  }
+  header {
+    margin-bottom: 0vw;
+  }
+  .header-content {
+    height: 100vw;
+  }
+  .header-content h1 {
+    margin-bottom: 15vw;
+  }
+  .header-img {
+    width: 260px;
+    margin-top: 0px;
+    margin-bottom: -243px;
+    z-index: 10;
+  }
+  .header-content button {
+    padding: 3vw 5vw;
+    font-size: 1.2rem;
+  }
+  .scroll-bar {
+    height: 20vw;
+    width: 1vw;
+    margin-top: 5vw;
+    margin-bottom: -25vw;
+    
+  }
+  .info-section2-wrapper {
+    padding-bottom: 2.5vw;
+  }
+  .info-image {
+    height: auto;
+    width: 100%;
+  }
+  .info-txt {
+    width: 80vw;
+  }
+  .info-section1-wrapper {
+    flex-direction: column;
+  }
+  .pricing-wrapper {
+    padding: 5vw;
+    padding-bottom: 10vw;
+  }
+  .pricing-tier-container {
+    flex-direction: column;
+  }
+  .pricing-tier {
+    margin-left: 0vw;
+    margin-top: 8vw;
+    width: 80vw;
+    padding-bottom: 3vw;
+  }
+  .box-top {
+    width: 100%;
+  }
+  .pricing-tier-content{
+    padding: 0vw 5vw 0vw 5vw;
+  }
+  .tier-header {
+    margin-top: 4vw;
+  }
+  .pricing-tier p {
+    width: auto;
+    padding: 0vw;
+  }
+  .contact-deco-2 {
+    margin-right: 3vw;
+    margin-top: 30px;
+    margin-bottom: -390px;
+  }
+  .contact-box {
+    width: 80vw;
+  }
+  .contact-box p {
+    width: 70vw;
+    text-align: left;
+  }
+  form {
+    width: 70vw;
+  }
+  input[type=text] {
+    margin-bottom: 5vw;
+    
+  }
+  input[name=firstname] {
+    width: 100%;
+    height: 10vw;
+  }
+  input[name=youremail] {
+    width: 100%;
+    height: 10vw;
+  }
+  input[name=message] {
+    width: 100%;
+    height: 10vw;
+  }
+  input[type=submit]{
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .8rem;
+    margin: 4px 2px;
+  }
+  footer {
+    flex-direction: column;
+    padding: 5vw 0vw;
+    height: auto;
+  }
+  footer img {
+    padding: 0px 10px;
+  }
+  .footer-left {
+    margin-left: 0px;
+  }
+  .footer-right {
+    margin-right: 0px;
+  }  
+}
+
+/* Iphone 6/7/8 and plus screen width */
+  @media only screen and (max-width: 414px) {
+    h1{
+      font-size: 1.5rem;
+      letter-spacing: .85rem;
+      padding-left: .85rem;
+    }
+    nav {
+      height: auto;      
+      flex-direction: column;
+      padding: 4vw 0vw;
+    }
+    .amplogo {
+      margin-left: 0px;
+    
+    }
+    .navsocial {
+      margin-top: 2vw;
+      margin-right: 0px;
+    }
+    .navsocial img {
+      padding: 0px 10px;
+    }
+    header {
+      margin-bottom: 0vw;
+    }
+    .header-content {
+      height: 100vw;
+    }
+    .header-content h1 {
+      margin-bottom: 15vw;
+    }
+    .header-img {
+      width: 120px;
+      margin-top: 0px;
+      margin-bottom: -118px;
+      z-index: 10;
+    }
+    .header-content button {
+      font-size: .8rem;
+    }
+    .scroll-bar {
+      height: 20vw;
+      width: 1vw;
+      margin-top: 5vw;
+      margin-bottom: -25vw;
+      
+    }
+    .info-section2-wrapper {
+      padding-bottom: 6vw;
+    }
+    .info-image {
+      height: auto;
+      width: 100%;
+    }
+    .info-txt {
+      width: 80vw;
+    }
+    .info-section1-wrapper {
+      flex-direction: column;
+    }
+    .pricing-wrapper {
+      padding: 5vw;
+      padding-bottom: 15vw;
+    }
+    .pricing-deco-2 {
+      margin-top: -90px;
+      margin-bottom: 1vw;
+    }
+    .pricing-tier-container {
+      flex-direction: column;
+    }
+    .pricing-tier {
+      margin-left: 0vw;
+      margin-top: 8vw;
+      width: 80vw;
+    }
+    .box-top {
+      width: 100%;
+    }
+    .pricing-tier-content{
+      padding: 0vw 5vw;
+    }
+    .tier-header {
+      margin-top: 6vw;
+    }
+    .pricing-tier p {
+      width: auto;
+    }
+    .contact-deco-1 {
+      margin-top: -25vw;
+      margin-bottom: 10vw;
+      margin-left: -400px;
+    }
+    .contact-deco-2 {
+      margin-right: 3vw;
+      margin-top: 30px;
+      margin-bottom: -390px;
+    }
+    .contact-box {
+      width: 80vw;
+    }
+    .contact-box p {
+      width: 70vw;
+      text-align: left;
+    }
+    form {
+      width: 70vw;
+    }
+    input[type=text] {
+      margin-bottom: 5vw;
+      
+    }
+    input[name=firstname] {
+      width: 100%;
+      height: 10vw;
+    }
+    input[name=youremail] {
+      width: 100%;
+      height: 10vw;
+    }
+    input[name=message] {
+      width: 100%;
+      height: 10vw;
+    }
+    input[type=submit]{
+      padding: 15px 22px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: .8rem;
+      margin: 4px 2px;
+    }
+    footer {
+      flex-direction: column;
+      padding: 5vw 0vw;
+      height: auto;
+    }
+    footer img {
+      padding: 0px 10px;
+    }
+    .footer-left {
+      margin-left: 0px;
+    }
+    .footer-right {
+      margin-right: 0px;
+    }
+  }
+
+/* Iphone 5s screen width */
+@media only screen and (max-width: 320px) {
+    h1{
+      font-size: 1.1rem;
+      letter-spacing: .66rem;
+      padding-left: .66rem;
+    }
+    nav {
+      height: auto;      
+      flex-direction: column;
+      padding: 4vw 0vw;
+    }
+    .amplogo {
+      margin-left: 0px;
+    
+    }
+    .navsocial {
+      margin-top: 2vw;
+      margin-right: 0px;
+    }
+    .navsocial img {
+      padding: 0px 10px;
+    }
+    header {
+      margin-bottom: 0vw;
+    }
+    .header-content {
+      height: 100vw;
+    }
+    .header-content h1 {
+      margin-bottom: 15vw;
+    }
+    .header-img {
+      width: 90px;
+      margin-top: 0px;
+      margin-bottom: -87px;
+      z-index: 10;
+    }
+    .header-content button {
+      font-size: .8rem;
+    }
+    .scroll-bar {
+      height: 20vw;
+      width: 1vw;
+      margin-top: 5vw;
+      margin-bottom: -25vw;
+      
+    }
+    .info-section2-wrapper {
+      padding-bottom: 8vw;
+    }
+    .info-image {
+      height: auto;
+      width: 100%;
+    }
+    .info-txt {
+      width: 80vw;
+    }
+    .info-section1-wrapper {
+      flex-direction: column;
+    }
+    .pricing-wrapper {
+      padding: 5vw;
+      padding-bottom: 15vw;
+    }
+    .pricing-deco-1 {
+      width: 15vw;
+      margin-top: 0vw;
+      margin-bottom: -78vw;
+    }
+    .pricing-deco-2 {
+      margin-top: -80px;
+      margin-bottom: 1vw;
+    }
+    .pricing-tier-container {
+      flex-direction: column;
+    }
+    .pricing-tier {
+      margin-left: 0vw;
+      margin-top: 8vw;
+      width: 80vw;
+    }
+    .box-top {
+      width: 100%;
+    }
+    .pricing-tier-content{
+      padding: 0vw 5vw;
+    }
+    .tier-header {
+      margin-top: 6vw;
+    }
+    .pricing-tier p {
+      width: auto;
+    }
+    .contact-deco-1 {
+      margin-top: -30vw;
+      margin-bottom: 10vw;
+      margin-left: -400px;
+    }
+    .contact-deco-2 {
+      margin-right: 3vw;
+      margin-top: 30px;
+      margin-bottom: -390px;
+    }
+    .contact-box {
+      width: 80vw;
+    }
+    .contact-box p {
+      width: 70vw;
+      text-align: left;
+    }
+    form {
+      width: 70vw;
+    }
+    input[type=text] {
+      margin-bottom: 5vw;
+      
+    }
+    input[name=firstname] {
+      width: 100%;
+      height: 10vw;
+    }
+    input[name=youremail] {
+      width: 100%;
+      height: 10vw;
+    }
+    input[name=message] {
+      width: 100%;
+      height: 10vw;
+    }
+    input[type=submit]{
+      padding: 15px 22px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: .8rem;
+      margin: 4px 2px;
+    }
+    footer {
+      flex-direction: column;
+      padding: 5vw 0vw;
+      height: auto;
+    }
+    footer img {
+      padding: 0px 10px;
+    }
+    .footer-left {
+      margin-left: 0px;
+    }
+    .footer-right {
+      margin-right: 0px;
+    }
+  }
